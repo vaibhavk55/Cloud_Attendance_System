@@ -2,6 +2,9 @@
 Django settings for Cloud Attendance System - Enhanced Edition
 Python 3.12 / Django 5.0 compatible
 """
+
+import pymysql
+pymysql.install_as_MySQLdb()
 import os
 from pathlib import Path
 
